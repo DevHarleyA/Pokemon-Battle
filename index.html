@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	  <meta charset="UTF-8">
+	  <title>Fire, Water, or Grass?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+
+    <header>
+      <section class="intro">
+        <h1>You stumbled across a trainer in the wild for the first time!</h1>
+        <img src="images/trainer.jpg" alt="pokemon trainers" class="trainers">
+        <h3>Time to battle: Choose your starter below!</h3>
+      </section>
+    </header>
+
+    <div class="secondCont">
+      <section class="details">
+        <!-- <p>A trainer has challenged you to a pokemon battle. </p>
+        <p><strong class="green">Grass</strong> beats <strong class="blue">water</strong>, <strong class="blue">water</strong> beats <strong class="red">fire</strong>, and <strong class="red">fire</strong> beats <strong class="green">grass</strong>.</p> -->
+        <h2>What starter will you pick?</h2>
+        <p><strong class="green">Grass</strong> beats <strong class="blue">water</strong>, <strong class="blue">water</strong> beats <strong class="red">fire</strong>, and <strong class="red">fire</strong> beats <strong class="green">grass</strong>.</p>
+      </section>
+    </div>
+
+    <section>
+      <button id="rock" class="btn1">
+        <p>Grass: Bulbasaur</p>
+        <img src="images/bulba.jpg" alt="bulbasaur" class="img1">
+      </button>
+
+      <button id="paper" class="btn2">
+        <p>Fire: Charmander</p>
+        <img src="images/char.jpg" alt="charizard" class="img2">
+      </button>
+
+      <button id="scissors" class="btn3">
+        <p>Water: Squirtle</p>
+        <img src="images/squirt.jpg" alt="squirtle" class="img3">
+      </button>
+    </section>
+
+    <div class="scoreboard">
+      <div class="whiteBox">
+        <div id="status"></div>
+        <div><img id="botPokemon" class="botPoke" src="" alt=""></div>
+        <h2>Scoreboard</h2>
+        <span>You:</span>
+        <span id="humanScore">0</span>
+        <span>Trainer:</span>
+        <span id="computerScore">0</span>
+      </div>
+    </div>
+
+    <script rel="text/javascript" src="js/main.js"></script>
+  </body>
+
+</html>

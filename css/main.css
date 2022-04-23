@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Shadows Into Light', Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    background-image: url('../images/bkgd.jpg');
+    background-size: cover;
+}
+
+/* Header Styling */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    font-size: 2.5rem;
+    color: darkgreen;
+    background: lightgreen;
+    border: 3px dotted green;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-radius: 15%;
+}
+
+.secondCont {
+    display: flex;
+    justify-content: center;
+}
+
+.trainers {
+    height: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Details/Rules Styling */
+
+.details {
+    font-size: 3rem;
+    color: Black;
+    background: lightgreen;
+    border: 3px dotted green;
+    padding: 2%;
+    border-radius: 30%;
+    margin-bottom: 1%;
+}
+
+.green {
+    color:green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+/* Scoreboard Styling */
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+}
+
+.whiteBox {
+    background-color: aliceblue;
+    font-size: 3rem;
+    padding: 1%;
+}
+
+.botPoke {
+    height: 150px;
+}
+
+/* Button Styling */
+
+button {
+    font-size: 2.5rem;
+    border-radius: 40%;
+    background: white;
+    width: 20%;
+    margin-bottom: 1%;
+}
+
+button img {
+    height: 100px;
+}
+
+/* Media Queries */
+
