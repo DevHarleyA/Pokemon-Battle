@@ -2,7 +2,7 @@
 
 This is a web application based off of rock, paper, scissors. The user chooses a starter pokemon, and battles the computer who chooses a Pokemon at random. The score from each battle is recorded below. Users may battle as many times as they'd like, as well as change their starter Pokemon choice.
 
-Web Application Link: [Pokemon Battle](https://firstbattle.netlify.app/}
+Web Application Link: [Pokemon Battle](https://firstbattle.netlify.app/)
 
 ![pokeBat](https://user-images.githubusercontent.com/101942628/164878653-458b18e0-ea1b-41d8-86f9-9dd3ed988aa0.PNG)
 
